@@ -15,7 +15,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
         <Editor
         apiKey='8jz76o3y35agiywc9a4ok1gdyjhdstvdvpegfhxzh8vc8iex'
         initialValue={defaultValue} 
-        tinymceConfig={{export_cors_hosts: "https://bestblogsindia.vercel.app/"}}  
+        tinymceConfig={{export_cors_hosts: "bestblogsindia.vercel.app"}}  
         init={{
             initialValue: defaultValue,
             height: 500,
