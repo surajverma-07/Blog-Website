@@ -14,8 +14,8 @@ export default function RTE({name, control, label, defaultValue =""}) {
     render={({field: {onChange}}) => (
         <Editor
         apiKey='8jz76o3y35agiywc9a4ok1gdyjhdstvdvpegfhxzh8vc8iex'
-        initialValue={defaultValue} 
         tinymceConfig={{export_cors_hosts: "bestblogsindia.vercel.app"}}  
+        initialValue={defaultValue} 
         init={{
             initialValue: defaultValue,
             height: 500,
